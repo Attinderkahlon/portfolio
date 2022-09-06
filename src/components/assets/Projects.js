@@ -44,7 +44,6 @@ const Projects = () => {
           <a href='https://scoreboardb.netlify.app'>
             <h1 className='text-xl'>Basketball scoreboard </h1>
             <p>
-              {" "}
               This is basketball based scoreboard build using vanilla Javascript
               and plain CSS.
             </p>

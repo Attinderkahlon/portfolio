@@ -5,7 +5,7 @@ import Skills from "../assets/Skills"
 const Body = () => {
   return (
     <div className=' '>
-      <div className='flex justify-center py-16'>
+      <div className='flex flex-col items-center md:flex-row  py-16 justify-center  '>
         <img
           src='images/pp.jpg'
           alt='profile'
