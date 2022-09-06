@@ -11,7 +11,7 @@ const Body = () => {
           alt='profile'
           className='object-contain h-64 w-64 rounded-full m-10'
         />
-        <p className='text-2xl mt-10 w-1/2 text-slate-50 font-Montserrat'>
+        <p className='p-12 text-2xl md:mt-10'>
           <span className='text-3xl block mb-2 animate-bounce'>Hi ! 👋</span>
           My name is Attinder and I'm a Front End Developer from Australia This
           is my digital garden, where I write about the things I'm working on

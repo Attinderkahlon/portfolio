@@ -4,7 +4,7 @@ import Nav from "./components/layout/Nav"
 
 function App() {
   return (
-    <div className=' bg-slate-900 text-slate-50'>
+    <div className=' bg-slate-900 text-slate-50 font-Montserrat'>
       <Nav />
       <Body />
       <Footer />
