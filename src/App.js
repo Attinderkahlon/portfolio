@@ -1,6 +1,6 @@
-import Body from "./components/Body"
-import Footer from "./components/Footer"
-import Nav from "./components/Nav"
+import Body from "./components/layout/Body"
+import Footer from "./components/layout/Footer"
+import Nav from "./components/layout/Nav"
 
 function App() {
   return (

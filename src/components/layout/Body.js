@@ -1,6 +1,6 @@
 import React from "react"
-import Projects from "./Projects"
-import Skills from "./Skills"
+import Projects from "../assets/Projects"
+import Skills from "../assets/Skills"
 
 const Body = () => {
   return (
