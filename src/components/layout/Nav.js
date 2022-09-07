@@ -1,4 +1,5 @@
 import React from "react"
+import Dropdown from "../assets/Dropdown"
 
 const Nav = () => {
   return (
@@ -11,7 +12,9 @@ const Nav = () => {
       <ul className='flex gap-6 py-2'>
         <li>Home</li>
         <li>About</li>
-        <li>Links</li>
+        <li>
+          <Dropdown />
+        </li>
       </ul>
     </nav>
   )
