@@ -57,6 +57,8 @@ function Dropdown() {
           <div className='py-1' role='none'>
             <a
               href='https://github.com/Attinderkahlon'
+              target='_blank'
+              rel='noopener noreferrer'
               className=' block px-4 py-2 text-sm'
               role='menuitem'
               tabIndex='-1'
@@ -66,6 +68,8 @@ function Dropdown() {
             </a>
             <a
               href='https://www.linkedin.com/in/attinder18/'
+              target='_blank'
+              rel='noopener noreferrer'
               className=' block px-4 py-2 text-sm'
               role='menuitem'
               tabIndex='-1'
