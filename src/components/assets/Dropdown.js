@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState } from 'react'
 
 function Dropdown() {
   const ref = useRef()
@@ -12,11 +12,11 @@ function Dropdown() {
       }
     }
 
-    document.addEventListener("mousedown", checkIfClickedOutside)
+    document.addEventListener('mousedown', checkIfClickedOutside)
 
     return () => {
       // Cleanup the event listener
-      document.removeEventListener("mousedown", checkIfClickedOutside)
+      document.removeEventListener('mousedown', checkIfClickedOutside)
     }
   }, [isMenuOpen])
 
@@ -24,7 +24,7 @@ function Dropdown() {
     <div className='relative inline-block text-left' ref={ref}>
       <button
         type='button'
-        className='inline-flex w-full rounded-md  px-2 py-2 text-l font-medium shadow-sm hover: focus:outline-none hover:border'
+        className='inline-flex w-full rounded-md   text-l font-medium shadow-sm hover: focus:outline-none hover:border'
         id='menu-button'
         aria-expanded='true'
         aria-haspopup='true'
