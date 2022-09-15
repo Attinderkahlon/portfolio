@@ -12,16 +12,13 @@ function App() {
   return (
     <div className=' bg-slate-900 text-slate-50 font-Montserrat'>
       <Nav />
-      <Routes>
+      <Routes basename='/portfolio'>
         <Route path='/' element={<Home />} />
         <Route path='certifications' element={<Certifications />} />
         <Route path='react' element={<CertReact />} />
         <Route path='/diplomaIt' element={<CertDiplomaIt />} />
-        <Route
-          path='/#/diplomaNetworking'
-          element={<CertDiplomaNetworking />}
-        />
-        <Route path='/#/contact' element={<Contact />} />
+        <Route path='/diplomaNetworking' element={<CertDiplomaNetworking />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </div>

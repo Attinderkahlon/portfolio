@@ -30,7 +30,7 @@ const Certifications = () => {
         </div>
 
         <div className='border border-slate-600 rounded-xl p-4 m-4  bg-slate-800 text-slate-50 hover:-translate-y-2 transition-transform ease-in-out cursor-pointer'>
-          <Link to='/#/diplomaIt'>
+          <Link to='/diplomaIt'>
             <h1 className='text-xl'>
               Diploma in IT : Computer Software
               <span className='italic'>- Upskilled</span>
@@ -38,7 +38,7 @@ const Certifications = () => {
           </Link>
         </div>
         <div className='border border-slate-600 rounded-xl p-4 m-4 bg-slate-800 text-slate-50 hover:-translate-y-2 transition-transform ease-in-out cursor-pointer'>
-          <Link to='/#/diplomaNetworking'>
+          <Link to='/diplomaNetworking'>
             <h1 className='text-xl'>
               Diploma in IT : Networking
               <span className='italic'>- Upskilled</span>
