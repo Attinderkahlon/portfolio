@@ -5,7 +5,7 @@ import pp from '../../images/pp.jpg'
 
 const Body = () => {
   return (
-    <div className=' '>
+    <div>
       <div className='flex flex-col items-center sm:flex-row py-16 justify-center  '>
         <img
           src={pp}

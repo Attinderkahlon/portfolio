@@ -12,7 +12,7 @@ function App() {
   return (
     <div className=' bg-slate-900 text-slate-50 font-Montserrat'>
       <Nav />
-      <Routes basename='/portfolio'>
+      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='certifications' element={<Certifications />} />
         <Route path='react' element={<CertReact />} />
