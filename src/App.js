@@ -15,10 +15,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='certifications' element={<Certifications />} />
-        <Route path='/react' element={<CertReact />} />
+        <Route path='react' element={<CertReact />} />
         <Route path='/diplomaIt' element={<CertDiplomaIt />} />
-        <Route path='/diplomaNetworking' element={<CertDiplomaNetworking />} />
-        <Route path='contact' element={<Contact />} />
+        <Route
+          path='/#/diplomaNetworking'
+          element={<CertDiplomaNetworking />}
+        />
+        <Route path='/#/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </div>
