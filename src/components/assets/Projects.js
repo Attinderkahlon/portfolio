@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const Projects = () => {
   return (
@@ -20,6 +20,21 @@ const Projects = () => {
               search crypto coins and when we click on a coin it will take us to
               another page and show the price graph for that coin. • I used
               tailwind to style the website. It is a fully responsive website.
+            </p>
+          </a>
+        </div>
+        <div className='border border-slate-600 rounded-xl p-4 m-4 w-4/5 bg-slate-800 text-slate-50 hover:-translate-y-2 transition-transform ease-in-out cursor-pointer'>
+          <a
+            href='https://pic-some2.netlify.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <h1 className='text-xl'>Pic-Some</h1>
+
+            <p>
+              This a retail website sample, in which we add products to cart and
+              checkout. • I used CSS to style the website. It is a fully
+              responsive website.
             </p>
           </a>
         </div>
